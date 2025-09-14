@@ -22,8 +22,8 @@ body{
     margin: auto;
     height: 100%;
     width: auto;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 30px;
 }
 
@@ -88,7 +88,6 @@ ul li a i{
 input{
     display: none;
     visibility: hidden;
-    -webkit-appearance: none;
 }
 
 .toggle{
@@ -253,8 +252,8 @@ input:checked ~ .slide{
 a.info-box-logos{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
-    width: 30%;
-    height: 100px;
+    width: 25%;
+    height: auto;
     display: flex;
     margin: auto;
     margin-top: 12px;
@@ -277,7 +276,7 @@ a.info-box-cover-pics{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
-    height: 500px;
+    height: auto;
     display: flex;
     margin: auto;
     margin-top: 12px;
@@ -288,10 +287,11 @@ a.info-box-cover-pics{
 }
 
 .info-box-cover-pics img{
-    width: 30%;
-    height: auto;
-    margin: 0;
+    width: auto;
+    height: 440px;
+    margin: 30px;
     border-radius: 10px;
+    
 }
 
 /*==================== INFO BOX ====================*/
@@ -428,10 +428,10 @@ a.info-box-about-us-3{
 
 /*==================== INFO BOX MERCHANDISE PREVIEW ====================*/
 
-a.info-box-merchandise{
+.info-box-merchandise{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -442,25 +442,27 @@ a.info-box-merchandise{
     align-items: center;
     padding-top: 20px;
     border-radius: 10px;
+    gap: 10px;
 }
 
-a.info-box-merchandise img{
+.info-box-merchandise img{
     width: 90%;
     height: auto;
     margin: 0;
     border-radius: 10px;
 }
 
-a.info-box-merchandise h3{
+.info-box-merchandise h3{
     margin-top: 10px;
     color: skyblue;
 }    
 
-a.info-box-merchandise p{
+.info-box-merchandise p{
     margin-top: 10px;
     font-weight: 700;
     color: white;
 }
+
 
 /*==================== H2 ====================*/
 
@@ -508,4 +510,110 @@ a.info-box-merchandise p{
 #contact button:hover{
     background-color: black;
     color: white;
+}
+
+/*================= HOODIE PAGE BUTTONS ==================*/
+
+button.add-to-cart {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    background: #0078ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button.add-to-cart:hover {
+    background: #025abe;
+}
+
+/*================== CART PAGE ====================*/
+
+#cart-items {
+    max-width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cart-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    flex-grow: 1;
+}
+
+.cart-item button {
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.cart-item button:hover {
+    background: #cc0000;
+}
+
+/*================== Total & Checkout =================*/
+
+#total {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    color:#fff;
+}
+
+button[onclick="checkout()"] {
+    display: block;
+    margin: 0 auto 30px;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button[onclick="checkout()"]:hover {
+    background: #218838;
+}
+
+/*================== CART PAGE H2 ================*/
+
+#main h2 {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+    color: skyblue;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgba(3, 16, 29, 0.8);
 }

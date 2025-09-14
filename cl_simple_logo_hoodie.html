@@ -30,7 +30,7 @@
                     <li><a href="shorts.html"><i class="fas fa-bars"></i> Shorts </a></li>
 
                     <li><a href="accessories.html"><i class="fa fa-star"></i> Accessories </a></li>
-                    <li><a href="#"><i class="fas fa-shopping-cart"></i> Cart </a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart </a></li>
                     <li><a href="contact.html"><i class="fa fa-phone"></i> Contact </a></li>
                     <li><a href="about-us.html"><i class="fas fa-info-circle"></i> About Us </a></li>
                 </ul>
@@ -53,47 +53,29 @@
                 <br/>
 
                 <div class="info-box-merchandise">
-                    <img id="product-img1" src="cl_images/white_hoodie_front_1.jpg" alt="CL Simple Logo Hoodie">
-                    <h3 id="product-name1">CL Simple Logo Hoodie</h3>
-                    <p id="product-price1">R300.00</p>
+                    <img src="cl_images/white_hoodie_front_1.jpg" width="200">
+                    <h3>CL Simple Logo Hoodie</h3>
+                    <p>R300.00</p>
 
-                    <div class="cart-actions">
-                        <label for="qty1">Qty : </label>
-                        <input type="number" id="qty1" min="1" value="1">
-                        <button class="add-to-cart" onclick="addToCart('product-name1', 'product-price1' , 'product-img1' , 'qty1')">Add to Cart</button>
-                    </div>
-                    
+                    <label for="quantity-hoodie"></label>
+                    <input type="number" id="quantity-hoodie" value="1" min="1">
+
+                    <button class="add-to-cart" onclick="addToCart('CL Simple Logo Hoodie', 300, 'cl_images/white_hoodie_front_1.jpg', 'quantity-hoodie')">
+                        Add to Cart
+                    </button>
                 </div>
-
-                <script>
-                    function addToCart(nameId, priceId, imgId, qtyId) {
-                        let name = document.getElementById(nameId).innerText;
-                        let price = parseFloat(document.getElementById(priceId).innerText);
-                        let qty = parseInt(document.getElementById(qtyId).value);
-                        let image = document.getElementById(imgId).src;
-
-                        let product = {name, price, qty, image };
-
-                        // Get existing cart from localStorage
-                        let cart = JSON.parse(localStorage.getItem("cart")) || [];
-                        cart.push(product);
-
-                        // Save back to localStorage
-                        localStorage.setItem("cart", JSON.stringify(cart));
-
-                        alert("Item added to cart!");
-                        window.location.href = "add-to-cart.html";
-                    }
-                </script>
-
+                
                 
 
                 <div id="tabs-bottom">
                     <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
                     <a href="about-us.html"><i class="fas fa-info-circle"></i> About Us</a>
-                    <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart (<span id="cart-count"> 0 </span>)</a>
                 </div>
             </div>
         </div>
+
+        <script src="cart.js"></script>
+
     </body>
 </html>

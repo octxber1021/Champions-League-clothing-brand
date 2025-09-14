@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+
+        <div id="header">
+            <img src="cl_images/logo_3.jpg"/>
+        </div>
+
+        <label>
+            <input type="checkbox">
+            <div class="toggle">
+                <span class="top_line common"></span>
+                <span class="middle_line common"></span>
+                <span class="bottom_line common"></span>
+            </div>
+            <div class="slide">
+                <h1>MENU</h1>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home </a></li>
+                    <li><a href="all.html"><i class="fas fa-th-large"></i> All </a></li>
+                    <li><a href="sweaters_hoodies.html"><i class="fas fa-t-shirt"></i> Sweaters, Hoodies </a></li>
+
+                    <li><a href="t-shirts.html"><i class="fas fa-t-shirt"></i> T-Shirts </a></li>
+                    <li><a href="shorts.html"><i class="fas fa-bars"></i> Shorts </a></li>
+
+                    <li><a href="accessories.html"><i class="fa fa-star"></i> Accessories </a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart </a></li>
+                    <li><a href="contact.html"><i class="fa fa-phone"></i> Contact </a></li>
+                    <li><a href="about-us.html"><i class="fas fa-info-circle"></i> About Us </a></li>
+                </ul>
+            </div>
+        </label>
+
+        <div id="tabs-top">
+            <a href="index.html"><i class="fas fa-home"></i> Home </a>
+            <a href="all.html">All</a>
+            <a href="sweaters_hoodies.html">Sweaters & Hoodies </a>
+            <a href="t-shirts.html">T-Shirts</a>
+            <a href="shorts.html">Shorts</a>
+            <a href="accessories.html">Accessories</a>
+        </div>
+
+        <div id="main">
+            <div id="content">
+
+                <br/>
+                <br/>
+
+                <div class="info-box-merchandise">
+                    <img src="cl_images/short_white_ladygun_1.jpg" width="200">
+                    <h3>CL Gun Lady Shorts</h3>
+                    <p>R150.00</p>
+
+                    <label for="quantity-hoodie"></label>
+                    <input type="number" id="quantity-hoodie" value="1" min="1">
+
+                    <button class="add-to-cart" onclick="addToCart('CL Gun Lady Shorts W', 150, 'cl_images/short_white_ladygun_1.jpg', 'quantity-hoodie')">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div id="tabs-bottom">
+                    <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+                    <a href="about-us.html"><i class="fas fa-info-circle"></i> About Us</a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart (<span id="cart-count"> 0 </span>)</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="cart.js"></script>
+
+    </body>
+</html>

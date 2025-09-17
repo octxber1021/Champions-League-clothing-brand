@@ -25,6 +25,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 30px;
+    
 }
 
 /*==================== NAVIGATION BAR ====================*/
@@ -314,6 +315,7 @@ a.info-box{
 
 .info-box img{
     height: 125px;
+    width: auto;
     margin: 10px;
     float: left;
     border-radius: 10px;
@@ -337,6 +339,7 @@ a.info-box{
     float: right;
     margin-top: 50px;
     height: 40px;
+    width: auto;
 }
 
 /*==================== INFO BOX PRICES ====================*/
@@ -355,6 +358,7 @@ a.info-box{
 
 .info-box-prices img{
     height: 125px;
+    width: auto;
     margin: 10px;
     float: left;
     border-radius: 10px; 

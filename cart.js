@@ -77,7 +77,7 @@ function checkout() {
   });
 
   message += `%0ATotal: R${total}`;
-  let phone = "27768115597"; // Replace with brand owner's number
+  let phone = "27728699261"; // Replace with brand owner's number
   window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
 }
 

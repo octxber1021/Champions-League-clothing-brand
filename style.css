@@ -13,19 +13,23 @@ body{
     left: 0px;
     z-index: 500;
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 #header img{
-    display: block;
-    margin: auto;
-    height: 100%;
+    height: 60px;
+    max-height: 8vh;
     width: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 30px;
-    
+    border-radius: 25px;
+    margin: auto;
 }
 
 /*==================== NAVIGATION BAR ====================*/
@@ -49,11 +53,20 @@ h1{
     color: skyblue;
     font-weight: 800;
     text-align: right;
-    padding: 10px 0;
-    padding-right: 30px;
+    padding: 14px 0;
+    padding-right: 34px;
     pointer-events: none;
-    
-
+    user-select: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid skyblue;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    max-width: 90%;
+    line-height: 1.2;
 }
 
 ul li{
@@ -68,7 +81,7 @@ ul li a{
     text-transform: capitalize;
     text-decoration: none;
     transition: 0.2s ease-out;
-    font-size: clamp(12px, 2.5vw, 20px);
+    font-size: 20px;
     align-items: center;
     line-height: 1.4;
     grid-template-columns: auto 1fr;
@@ -95,8 +108,8 @@ input{
     position: fixed;
     height: 28px;
     width: 28px;
-    margin-top: 20px;
-    left: 10px;
+    margin-top: 15px;
+    left: 7px;
     z-index: 1;
     cursor: pointer;
     border-radius: 5px;
@@ -161,7 +174,7 @@ input:checked ~ .slide{
     justify-content: space-around;
     flex-wrap: wrap;
     position: fixed;
-    top: 80px;
+    top: 60px;
     left: 0;
     z-index: 500;
     width: 100%;
@@ -232,7 +245,7 @@ input:checked ~ .slide{
 /*==================== MAIN ====================*/
 
 #main{
-    margin-top: 119px;
+    margin-top: 100px;
     background: url(cl_images/logo_1_blurry.JPG);
     background-repeat: repeat-y;
     background-size: cover;
@@ -268,7 +281,7 @@ a.info-box-logos{
     width: 25%;
     height: auto;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /*==================== INFO BOX COVER PICS ====================*/
@@ -281,7 +294,6 @@ a.info-box-cover-pics{
     display: flex;
     margin: auto;
     margin-top: 12px;
-    padding: 1px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -290,8 +302,8 @@ a.info-box-cover-pics{
 .info-box-cover-pics img{
     width: auto;
     height: 440px;
-    margin: 30px;
     border-radius: 10px;
+    padding: 20px;
     
 }
 
@@ -395,39 +407,45 @@ a.info-box-about-us-1{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
-    height: 130px;
+    height: auto;
     display: block;
     margin: auto;
     margin-top: 12px;
-    padding: 1px;
+    padding: 20px;
     color: white;
     border-radius: 10px;
+    word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 a.info-box-about-us-2{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
-    height: 200px;
+    height: auto;
     display: block;
     margin: auto;
     margin-top: 12px;
-    padding: 1px;
+    padding: 20px;
     color: white;
     border-radius: 10px;
+    word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 a.info-box-about-us-3{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
-    height: 110px;
+    height: auto;
     display: block;
     margin: auto;
     margin-top: 12px;
-    padding: 1px;
+    padding: 20px;
     color: white;
     border-radius: 10px;
+    word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 /*==================== INFO BOX MERCHANDISE PREVIEW ====================*/
@@ -435,7 +453,7 @@ a.info-box-about-us-3{
 .info-box-merchandise{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
-    width: 45%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -485,11 +503,12 @@ a.info-box-about-us-3{
 #contact {
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
-    width: 50%;
+    width: 80%;
     height: auto;
     display: block;
     margin: auto;
     padding: 25px;
+    border-radius: 10px;
 }
 
 #contact a{
@@ -552,7 +571,7 @@ button.add-to-cart:hover {
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(2, 2, 2, 0.1);
 }
 
 .cart-item img {

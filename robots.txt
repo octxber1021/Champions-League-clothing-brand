@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://octxber1021.github.io/Champions-League-clothing-brand/sitemap.xml

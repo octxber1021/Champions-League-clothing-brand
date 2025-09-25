@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-   <!-- Homepage -->
+   
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/</loc>
       <lastmod>2025-09-24</lastmod>
@@ -9,7 +9,7 @@
       <priority>1.0</priority>
    </url>
 
-    <!-- All Page -->
+    
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/all.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -17,7 +17,7 @@
       <priority>1.0</priority>
    </url>
 
-    <!-- Caps Page -->
+    
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/caps.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -25,7 +25,7 @@
       <priority>0.5</priority>
    </url>
 
-   <!-- Beanies Page -->
+
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/beanies.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -33,7 +33,7 @@
       <priority>0.5</priority>
    </url>
 
-    <!-- Sweater & Hoodies Page -->
+    
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/sweaters_hoodies.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -41,7 +41,7 @@
       <priority>1.0</priority>
    </url>
 
-     <!-- T-Shirts Page -->
+
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/t-shirts.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -49,7 +49,7 @@
       <priority>1.0</priority>
    </url>
 
-    <!-- Shorts Page -->
+
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/shorts.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -57,7 +57,7 @@
       <priority>1.0</priority>
    </url>
 
-     <!-- Accessories Page -->
+    
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/accessories.html</loc>
       <lastmod>2025-09-24</lastmod>
@@ -65,7 +65,7 @@
       <priority>1.0</priority>
    </url>
 
-   <!-- Contact Page -->
+   
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/contact.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -73,7 +73,7 @@
       <priority>0.5</priority>
    </url>
 
-   <!-- About-US Page -->
+   
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/about-us.html</loc>
       <lastmod>2025-09-23</lastmod>
@@ -81,7 +81,7 @@
       <priority>0.8</priority>
    </url>
 
-   <!-- Cart Page -->
+   
    <url>
       <loc>https://octxber1021.github.io/Champions-League-clothing-brand/cart.html</loc>
       <lastmod>2025-09-23</lastmod>

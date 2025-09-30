@@ -266,7 +266,7 @@ input:checked ~ .slide{
 a.info-box-logos{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
-    width: 25%;
+    width: 30%;
     height: auto;
     display: flex;
     margin: auto;
@@ -278,7 +278,7 @@ a.info-box-logos{
 }
 
 .info-box-logos img{
-    width: 25%;
+    width: 30%;
     height: auto;
     margin: 10px;
     border-radius: 5px;
@@ -300,10 +300,12 @@ a.info-box-cover-pics{
 }
 
 .info-box-cover-pics img{
-    width: auto;
-    height: 440px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
+    box-sizing: border-box;
     
 }
 
@@ -535,7 +537,7 @@ a.info-box-about-us-3{
     color: white;
 }
 
-/*================= HOODIE PAGE BUTTONS ==================*/
+/*================= ADD TO CART BUTTONS ==================*/
 
 button.add-to-cart {
     margin-top: 12px;
@@ -582,7 +584,7 @@ button.add-to-cart:hover {
 }
 
 .cart-item p {
-    margin: 5px 0;
+    margin: 5px;
     flex-grow: 1;
 }
 

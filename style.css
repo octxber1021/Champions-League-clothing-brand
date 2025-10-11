@@ -405,7 +405,7 @@ a.info-box{
 
 /*==================== INFO BOX ABOUT US ====================*/
 
-a.info-box-about-us-1{
+.info-box-about-us-1{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
@@ -420,7 +420,13 @@ a.info-box-about-us-1{
     box-sizing: border-box;
 }
 
-a.info-box-about-us-2{
+.info-box-about-us-1 a{
+    color: white;
+}
+
+/*==================== INFO BOX TERMS & CONDITIONS ====================*/
+
+.info-box-terms-conditions{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
@@ -435,7 +441,13 @@ a.info-box-about-us-2{
     box-sizing: border-box;
 }
 
-a.info-box-about-us-3{
+.info-box-terms-conditions a{
+    color: white;
+}
+
+/*==================== INFO BOX PRIVACY POLICY ====================*/
+
+.info-box-privacy-policy{
     text-decoration: none;
     background: rgba(3, 16, 29, 0.8);
     width: 80%;
@@ -448,6 +460,10 @@ a.info-box-about-us-3{
     border-radius: 10px;
     word-wrap: break-word;
     box-sizing: border-box;
+}
+
+.info-box-privacy-policy a{
+    color: white;
 }
 
 /*==================== INFO BOX MERCHANDISE PREVIEW ====================*/
@@ -536,6 +552,7 @@ a.info-box-about-us-3{
     background-color: black;
     color: white;
 }
+
 
 /*================= ADD TO CART BUTTONS ==================*/
 
